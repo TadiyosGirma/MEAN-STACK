@@ -1,0 +1,17 @@
+.navbar {
+    height: 130px;
+    font-size: 25px;
+}
+
+.navbar-brand {
+    color: brown;
+    font-size: xx-large;
+}
+
+.dropdown-item {
+    display: inline;
+}
+
+.dropdown-menu {
+    opacity: 0.7;
+}

@@ -1,0 +1,14 @@
+.carousel-inner {
+    width: 100%;
+    max-height: 500px !important;
+}
+
+.jumbotron {
+    text-align: justify;
+    color: blue;
+}
+
+.display-4,
+.lead {
+    text-align: center;
+}
