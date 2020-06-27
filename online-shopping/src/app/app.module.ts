@@ -5,16 +5,20 @@ import { AppComponent } from './app.component';
 import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { DisplayshopsComponent } from './displayshops/displayshops.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
     AppComponent,
     BodyComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    DisplayshopsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

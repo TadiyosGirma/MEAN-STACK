@@ -11,5 +11,11 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  public url: String = "";
+  public onClick(){
+    // alert("okeeey");
+    this.url = "../displayshops/displayshops.component.html";
+
+  }
 
 }
